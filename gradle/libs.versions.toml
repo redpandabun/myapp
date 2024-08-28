@@ -1,6 +1,7 @@
 [versions]
 java = "21"
 kotlin = "1.9.25"
+kotlinLogging = "7.0.0"
 spring-boot = "3.3.3"
 spring-dependencyManagement = "1.1.6"
 
@@ -17,5 +18,10 @@ kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit5" }
 
 # Spring boot
+spring-boot-dependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
 spring-boot-devtools = { module = "org.springframework.boot:spring-boot-devtools" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test" }
+
+# Logging framework (SLF4J)
+logback-classic = { module = "ch.qos.logback:logback-classic" }
+kotlinLogging = { module = "io.github.oshai:kotlin-logging-jvm", version.ref = "kotlinLogging" }

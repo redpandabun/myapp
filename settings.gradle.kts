@@ -18,5 +18,7 @@ dependencyResolutionManagement {
 }
 
 include(
+  ":core:myapp-logging",
+  
   ":apps:myapp"
 )
