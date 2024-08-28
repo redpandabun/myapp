@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-  implementation(project(":core:myapp-logging"))
+  implementation(project(":core:logging"))
 }
