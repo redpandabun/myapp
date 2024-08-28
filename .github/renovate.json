@@ -8,5 +8,8 @@
     "security:openssf-scorecard",
     ":automergeMinor",
     ":approveMajorUpdates"
+  ],
+  "labels": [
+    "dependencies"
   ]
 }
