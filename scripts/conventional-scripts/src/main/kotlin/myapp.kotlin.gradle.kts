@@ -5,8 +5,8 @@ plugins {
 }
 
 dependencies {
-  implementation(kotlin("stdlib-jdk8"))
-  testImplementation(kotlin("test-junit5"))
+  implementation(libs.kotlin.stdlib)
+  testImplementation(libs.kotlin.test)
 }
 
 kotlin {
@@ -14,5 +14,11 @@ kotlin {
 
   compilerOptions {
     freeCompilerArgs = properties["kotlin.compiler.free-compiler-args"].toString().split(" ")
+  }
+}
+
+tasks {
+  test {
+    useJUnitPlatform()
   }
 }

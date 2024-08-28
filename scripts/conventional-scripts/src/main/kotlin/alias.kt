@@ -16,6 +16,11 @@ fun DependencyHandlerScope.runtimeOnly(dependencyNotation: Any) = add(
   dependencyNotation
 )
 
+fun DependencyHandlerScope.developmentOnly(dependencyNotation: Any) = add(
+  "developmentOnly",
+  dependencyNotation
+)
+
 fun DependencyHandlerScope.testImplementation(dependencyNotation: Any) = add(
   "testImplementation",
   dependencyNotation

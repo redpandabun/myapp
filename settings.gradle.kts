@@ -17,4 +17,6 @@ dependencyResolutionManagement {
   }
 }
 
-include(":apps:myapp")
+include(
+  ":apps:myapp"
+)
