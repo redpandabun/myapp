@@ -19,3 +19,7 @@ ij_formatter_off_tag = @formatter:off
 [*.versions.toml]
 max_line_length = 180
 ij_visual_guides = 180
+
+[logback*.xml]
+max_line_length = 180
+ij_visual_guides = 180
