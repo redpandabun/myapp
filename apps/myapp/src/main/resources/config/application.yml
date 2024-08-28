@@ -7,3 +7,12 @@ spring:
   threads:
     virtual:
       enabled: true
+
+logging:
+  charset:
+    console: UTF-8
+  pattern:
+    console: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} [%-13.13thread{13}] %clr(%-36.36logger{36}){cyan}: [%clr(%5p)] %m%n%wEx"
+  level:
+    root: warn
+    com.myapp: info

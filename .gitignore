@@ -3,6 +3,7 @@
 build/
 
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
+!.idea/runConfigurations
 out/
 *.iml
