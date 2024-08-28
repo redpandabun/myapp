@@ -1,0 +1,9 @@
+spring:
+  main:
+    keep-alive: true
+    banner-mode: off
+    log-startup-info: false
+    lazy-initialization: true
+  threads:
+    virtual:
+      enabled: true
